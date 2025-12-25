@@ -1,28 +1,135 @@
-BSD 3-Clause License
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ebooks de Saúde Mental</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Montserrat:wght@300;500;700&display=swap');
 
-Copyright (c) 2025, pilaX63
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #0d0d0d url('https://images.unsplash.com/photo-1517816428104-797678c7cf0c?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+    margin:0; padding:0;
+    color:#e6e6e6;
+  }
+  header {
+    background: linear-gradient(135deg, rgba(128,0,255,0.8), rgba(20,20,50,0.9));
+    color:white; text-align:center; padding:60px 20px;
+    backdrop-filter: blur(6px);
+    border-bottom: 2px solid #8a2be2;
+  }
+  header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size:3rem;
+    letter-spacing:2px;
+    text-shadow:0 0 8px #6a0dad;
+  }
+  section {
+    max-width: 900px; margin:40px auto;
+    background: rgba(20,20,20,0.8);
+    padding:40px; border-radius:14px;
+    backdrop-filter: blur(8px);
+    border:1px solid #6a0dad88;
+    box-shadow:0 0 25px rgba(138,43,226,0.4);
+  }
+  .cta {
+    display:block; background:#6a0dad; color:white;
+    padding:18px 25px; text-align:center; border-radius:10px;
+    text-decoration:none; font-size:1.3rem; margin:20px auto;
+    max-width:320px; font-family:'Orbitron', sans-serif;
+    box-shadow:0 0 15px #6a0dad;
+    transition:0.3s;
+  }
+  .cta:hover { background:#4b0082; transform:scale(1.05); box-shadow:0 0 25px #6a0dad; }
+  .beneficios { display:grid; grid-template-columns:1fr 1fr; gap:25px; }
+  .beneficios div {
+    background:rgba(255,255,255,0.05);
+    padding:20px; border-radius:10px;
+    border-left:3px solid #6a0dad;
+  }
+  .beneficios h3 { font-family:'Orbitron', sans-serif; }
+  @media(max-width:700px){ .beneficios{grid-template-columns:1fr;} header h1{font-size:2.3rem;} }
+</style>
+</head>
+<body>
+<header>
+  <h1 style="font-size:3.5rem; letter-spacing:3px; text-transform:uppercase; color:#ffffff; text-shadow:0 0 10px #8a2be2, 0 0 20px #6a0dad;">MENTE SÃ • CORPO FORTE</h1>
+  <p>Conhecimento prático para transformar sua mente, sua rotina e sua vida.</p>
+</header>
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+<section>
+  <h2>Transforme Sua Mente com Conteúdo de Qualidade</h2>
+  <p>Você sente que poderia ter mais equilíbrio emocional, foco e qualidade de vida, mas não sabe por onde começar? Esses ebooks foram criados para ajudar você a entender sua mente e construir hábitos que fortalecem sua saúde mental todos os dias.</p>
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+  <a href="#comprar" class="cta">Quero Acessar os Ebooks</a>
+</section>
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+<section>
+  <h2>O que você vai encontrar nos ebooks:</h2>
+  <div class="beneficios">
+    <div>
+      <h3>✔ Técnicas Antiestresse</h3>
+      <p>Estrategias simples para reduzir tensão e recuperar o equilíbrio emocional.</p>
+    </div>
+    <div>
+      <h3>✔ Gestão da Ansiedade</h3>
+      <p>Métodos práticos para controlar pensamentos acelerados e criar estabilidade interna.</p>
+    </div>
+    <div>
+      <h3>✔ Hábitos Saudáveis</h3>
+      <p>Pequenas mudanças diárias que geram grandes resultados na sua saúde mental.</p>
+    </div>
+    <div>
+      <h3>✔ Autoconhecimento</h3>
+      <p>Ferramentas para identificar gatilhos emocionais e fortalecer sua autoestima.</p>
+    </div>
+  </div>
+</section>
 
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
+<section id="comprar">
+  <h2>Garanta Agora o Seu Pacote de Ebooks</h2>
+  <p>Adquira agora e tenha acesso imediato ao conteúdo digital. Leitura prática, clara e feita para quem quer mudança real.</p>
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  <h3>📚 Pacote Completo de Ebooks de Saúde Mental</h3>
+  <ul>
+    <li>Livro 212</li>
+    <li>Livro 147</li>
+    <li>Livro 276</li>
+    <li>Livro 163</li>
+    <li>Livro 258</li>
+    <li>Livro 199</li>
+    <li>Livro 173</li>
+    <li>Livro 268</li>
+    <li>Livro 145</li>
+    <li>Livro 221</li>
+    <li>Livro 279</li>
+    <li>Livro 188</li>
+    <li>Livro 154</li>
+    <li>Livro 231</li>
+    <li>Livro 167</li>
+    <li>Livro 245</li>
+    <li>Livro 272</li>
+    <li>Livro 158</li>
+    <li>Livro 203</li>
+    <li>Livro 175</li>
+    <li>Livro 266</li>
+    <li>Livro 191</li>
+    <li>Livro 260</li>
+    <li>Livro 149</li>
+    <li>Livro 257</li>
+    <li>Livro 171</li>
+    <li>Livro 223</li>
+    <li>Livro 278</li>
+    <li>Livro 184</li>
+    <li>Livro 169</li>
+  </ul>
+
+  <a href="#" class="cta">Comprar Agora</a>
+</section>
+
+<footer style="text-align:center; padding:30px; color:#555;">
+  <p>© 2025 | Ebooks de Saúde Mental | Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
